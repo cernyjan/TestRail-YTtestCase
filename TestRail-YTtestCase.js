@@ -36,12 +36,18 @@ $( document ).ready(function() {
 			    oid = oid[1].trim()
 			else
 			    oid = oid[0].trim()
+			
+			var url = window.location.href
+			if (url.indexOf("&") >= 0)
+				url = url.substring(0, url.indexOf("&"))
+			
 			var value = "[" 
 						+ oid
 						+ " " 
 						+ $('.content-header-title').text().trim()
 						+ "]"
-						+ "(" + window.location.href.substring(0, window.location.href.indexOf("&")) 
+						+ "(" 
+						+ url 
 						+ ")"
 			copyStringToClipboard(value);
 		});	

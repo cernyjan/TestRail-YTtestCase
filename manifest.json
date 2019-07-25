@@ -2,7 +2,7 @@
   "description": "Copy Test Case id for YouTrack",
   "manifest_version": 2,
   "name": "TestRail YTtestCase",
-  "version": "1.0.0.0",
+  "version": "1.0.1.0",
   "homepage_url": "https://github.com/cernyjan/TestRail-YTtestCase",
   "icons": {
     "48": "icons/folder-48.png"
