@@ -1,5 +1,5 @@
 # TestRail-YTtestCase
-This add-on injects JavaScript into TestRail web pages for Live preview of Test Case. 
+This add-on injects JavaScript into TestRail web pages for copying YT Test Case Id. 
 
 Compatible with TestRail *v5.6.0.3861* and lower.
 
